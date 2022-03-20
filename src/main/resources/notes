@@ -1,0 +1,10 @@
+Frontend layer:
+LoadBalancerService init --> init LBConfig, LBAlgorithm based on the config, backend servers etc
+
+Engine -- responsible for all request management
+
+Backend layer:
+ConnectionPool etc
+BackendServer executeReq
+
+Misc: HealthChecker
